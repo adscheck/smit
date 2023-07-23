@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Ads Check by SMIT",
+    "version": "1.0",
+    "description": "Smit",
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "permissions": ["activeTab", "desktopCapture","cookies", "tabCapture"],
+    "action": {
+      "default_popup": "popup.html"
+    },  
+    "icons": {
+        "128": "record.png"
+    }
+}
+  

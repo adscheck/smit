@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SMIT</title>
+  <style>
+    @font-face {
+        font-family: 'SVN-Gilroy-Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('SVN-Gilroy Light'), url('styles/SVNGilroy Bold.woff') format('woff');
+    }
+        
+    
+    @font-face {
+        font-family: 'SVN-Gilroy-Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('SVN-Gilroy Bold'), url('styles/SVNGilroy Bold.woff') format('woff');
+    }
+    body {
+      font-family: sans-serif;
+      width: 500px;
+      height: 250px;
+      border-radius: 69px;
+      background: #0EC581;
+    }
+
+    .card{
+      padding: 20px;
+    }
+
+    .title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .title-smit h2{
+      color: #FFF;
+      font-family: SVN-Gilroy-Light;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin: 0;
+    }
+
+    .title-smit span {
+      color: #FFF;
+      font-family: SVN-Gilroy-Light;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .btn-home button{
+      border-radius: 12px;
+      background: #CBFFEC;
+      width: 80px;
+      height: 45px;
+      border: 0px;
+      color: #000;
+      font-family: SVN-Gilroy-Light;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .btn-home :hover{
+      cursor: pointer;
+    }
+
+    .line{
+      margin-top: 10px;
+      width: 410px;
+      height: 4px;
+      border-radius: 100px;
+      background: #CBFFEC;
+    }
+
+    .smit-body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+    }
+
+    .content{
+      text-align: center;
+    }
+
+    .content h2{
+      color: #F00;
+      font-family: SVN-Gilroy-Light;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .content input{
+      width: 282px;
+      height: 43px;
+      border-radius: 40px;
+      background: #CBFFEC;
+      border: 0px;
+      padding: 0px 18px;
+    }
+
+    .footer-content{
+      color: #FFF;
+      font-family: SVN-Gilroy-Light;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .footer-content h4{
+      margin: 0px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="title">
+      <div class="title-smit">
+        <h2>Ads Check by SMIT</h2>
+        <span>Version 3.6.7</span>
+      </div>
+      <div class="btn-home">
+        <button>HOME</button>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="smit-body">
+      <div class="content">
+        <h2>YOUR KEY HAVE EXPIRED</h2>
+        <input placeholder="Please enter new key.">
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="footer-content">
+      <h4>Created by : SMIT.VN & Sponsared by: DC GROUP</h4>
+    </div>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
